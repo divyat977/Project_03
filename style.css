@@ -1,0 +1,258 @@
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  body {
+    background-color: #eef2f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Text Styling */
+  h1, h2 {
+    color: #1a1a1a;
+    font-weight: bold;
+  }
+  
+  h1 {
+    font-size: 2.5rem;
+    color: #002b5b;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  h2 {
+    font-size: 2rem;
+    color: #2a628f;
+    border-bottom: 2px solid #00aaff;
+    padding-bottom: 0.2rem;
+  }
+  
+  /* Header Styling */
+  header {
+    background: linear-gradient(90deg, #003366, #005bb5);
+    color: #fff;
+    padding: 1.5rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  header nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+  }
+  
+  header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  header nav ul li a:hover {
+    color: #ffd700;
+    text-shadow: 0 0 10px #ffd700;
+  }
+  
+  /* Section Styling */
+  /* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #eef2f5;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Text Styling */
+h1 {
+    font-size: 2.5rem;
+    color: #002b5b;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 2rem;
+    color: #2a628f;
+    border-bottom: 2px solid #00aaff;
+    padding-bottom: 0.2rem;
+}
+
+/* Section Styling */
+section {
+    padding: 2rem;
+    margin-top: 2rem;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+    margin: 2rem auto;
+    transition: transform 0.3s ease;
+}
+
+section:hover {
+    transform: scale(1.02);
+}
+
+/* About Me Section */
+#about-me .row {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    flex-wrap: wrap; /* Ensures wrapping on smaller screens */
+}
+
+#about-me .column {
+    flex: 1;
+}
+
+.text-content {
+    max-width: 500px;
+}
+
+.text-content p {
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.image-content img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #333;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.1);
+    margin-left: 40%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    #about-me .row {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .image-content img {
+        margin-top: 1rem;
+    }
+}
+  
+  /* Skills Table */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 1rem;
+  }
+  
+  th, td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #005bb5;
+    color: #ffffff;
+  }
+  
+  td {
+    background-color: #f5f9fd;
+  }
+  
+  table tr:nth-child(even) td {
+    background-color: #eaf2f8;
+  }
+  
+  /* Projects Section */
+  #projects ol li {
+    margin-bottom: 1.5rem;
+  }
+  
+  #projects a {
+    color: #005bb5;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+  }
+  
+  #projects a:hover {
+    color: #ff6600;
+    text-decoration: underline;
+  }
+  
+  /* Contact Form */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  form label {
+    font-weight: bold;
+    color: #2a628f;
+  }
+  
+  form input, form textarea {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: border-color 0.3s ease;
+  }
+  
+  form input:focus, form textarea:focus {
+    border-color: #005bb5;
+    outline: none;
+  }
+  
+  form button {
+    padding: 0.75rem;
+    background: #003366;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  form button:hover {
+    background: #005bb5;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 1rem;
+    background: #003366;
+    color: #fff;
+  }
+  
+  footer p {
+    margin-top: 0.5rem;
+  }
+  
+  footer .social-media a {
+    color: #ffd700;
+    margin: 0 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+  }
+  
+  footer .social-media a:hover {
+    color: #ffffff;
+    text-shadow: 0 0 8px #ffd700;
+  }
+  

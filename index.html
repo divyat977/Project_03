@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Web Journey</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body onload="welcomeMessage()">
+
+<!-- Header Section -->
+<header>
+    <nav>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<!-- About Me Section -->
+<section id="about-me">
+    <h1>About Me</h1>
+    <div class="row">
+        <div class="column text-content">
+            <p><strong>Divya Ajit Talawar</strong></p>
+            <p><em>GIT24CS404-T</em></p>
+            <p>
+                Hello! I'm a passionate web developer in training. I love creating visually appealing 
+                and functional web pages. My learning goals include mastering JavaScript and exploring 
+                front-end development.
+            </p>
+        </div>
+        <div class="column image-content">
+            <img src="divya.jpg" alt="A representative photo of myself">
+        </div>
+    </div>
+</section>
+
+<!-- Skills Section -->
+<section id="skills">
+    <h2>Skills</h2>
+    <table>
+        <tr>
+            <th>Skill</th>
+            <th>Description</th>
+            <th>Proficiency</th>
+        </tr>
+        <tr>
+            <td>HTML</td>
+            <td>Markup language for creating web pages.</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <td>CSS</td>
+            <td>Used for styling HTML elements.</td>
+            <td>Intermediate</td>
+        </tr>
+        <tr>
+            <td>JavaScript</td>
+            <td>Scripting language for web interactivity.</td>
+            <td>Beginner</td>
+        </tr>
+    </table>
+</section>
+
+<!-- Projects Section -->
+<section id="projects">
+    <h2>Projects</h2>
+    <ol>
+        <li>
+            <strong>Project One</strong> - Tic Tac Toe Game
+            <p>Implemented a simple game using HTML, CSS and JavaScript.</p>
+            <a href="https://github.com/divyat977/tic-tac-toe/tree/master">View Code</a>
+        </li>
+        <li>
+            <strong>Project Two</strong> - Stone Paper Scissor Game
+            <p>Implemented a simple game using HTML, CSS and JavaScript.</p>
+            <a href="https://github.com/divyat977/project_02">View Code</a>
+        </li>
+        <li>
+            <strong>Project Three</strong> - Personal Portfolio
+            <p>Created a personal portfolio website to showcase my journey.</p>
+            <a href="https://github.com/username/project3">View Code</a>
+        </li>
+    </ol>
+</section>
+
+<!-- Contact Form Section -->
+<section id="contact">
+    <h2>Contact Me</h2>
+    <form onsubmit="return validateForm()">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+        
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+        
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" required></textarea>
+        
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<!-- Footer Section -->
+<footer>
+    <p>&copy; 2024 My Web Journey</p>
+    <div class="social-media">
+        <a href="https://www.instagram.com/_divya.16___/">Instagram</a> |
+        <a href="https://github.com/divyatalawar">GitHub</a>
+    </div>
+</footer>
+
+</body>
+</html>
